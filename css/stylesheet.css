@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-	background-color: white;
+	background-color: #FFF;
 	padding: 50px;
 	padding-top:50px;
 	padding-bottom: 50px;
@@ -59,13 +59,13 @@ h1 {
 }
 
 #fotonavbar {
-	width: 100px;
+	width: 75px;
 	border-radius: 50%;
 	float:left;
 	margin: 10px;
-	-webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.6);
-	-moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.6);
-	box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.6);
+	-moz-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.6);
+	box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.6);
 }
 
 h2 {
