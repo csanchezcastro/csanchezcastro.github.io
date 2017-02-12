@@ -2,125 +2,170 @@
 <html lang="es">
 <head>
   <title>Curriculum Vitae de Carlos Sánchez-Castro Coy</title>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Carlos Sánchez-Castro Coy">
   <meta name="description" content="Carlos Sánchez-Castro Coy - Arquitecto">
   <meta name="keywords" content="Carlos Sánchez-Castro Coy, Arquitecto, Arquitectura, GIS, SIG, Madrid, Albacete">
   <link rel="stylesheet" href="css/reset.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/stylesheet.css">
   <link rel="stylesheet" href="icomoon/icomoon.css">
 </head>
 
 <body>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img id="fotonavbar" src="resources/foto.jpg" alt="Foto de Carlos Sánchez-Castro Coy">
+        <a class="navbar-brand" href="#Inicio">Carlos Sánchez-Castro Coy<br><br><small>Arquitecto especializado en GIS</small></a>
+      </div>
 
-  <h1>Carlos Sánchez-Castro Coy. Arquitecto especializado en GIS
-    <span><img id="Foto" src="resources/foto.jpg" alt="Foto de Carlos Sánchez-Castro Coy"></span>
-  </h1>
-  <br>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Enviar</button>
+      </form>
 
-  <h2>Experiencia profesional<span class="icon">&#xe903;</span></h2>
-  <br>
+      <div class="btn-group navbar-right">
+        <button type="button" class="btn btn-default dropdown-toggle navbar-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="#Experiencia">Experiencia profesional</a></li>
+          <li><a href="#FormacionAcademica">Formación académica</a></li>
+          <li><a href="#FormacionComplementaria">Formación complementaria</a></li>
+          <li><a href="#Habilidades">Habilidades y conocimientos</a></li>
+          <li><a href="#Otros">Otros datos de interés</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <table>
-    <tr>
-      <td class="text-center"><strong>Empresa</strong></td>
-      <td class="text-center"><strong>Lugar</strong></td>
-      <td class="text-center"><strong>Duración</strong></td>
-    </tr>
-    <tr>
-      <td>Empresa 1</td>
-      <td>Lugar 1 <a href="www.coacm.org">Enlace 01</a></td>
-      <td>Duración 1</td>
-    </tr>
-    <tr>
-      <td>Empresa 2</td>
-      <td>Lugar 2 <a href="www.coacm.org">Enlace 02</a></td>
-      <td>Duración 2</td>
-    </tr><tr>
-      <td>Empresa n</td>
-      <td>Lugar n <a href="www.coacm.org">Enlace n</a></td>
-      <td>Duración n</td>
-    </tr>
-  </table>
-  <br>
 
-  <h2>Formación académica<span class="icon">&#xe914;</span></h2>
-  <br>
 
-  <table>
-    <tr>
-      <td class="text-center"><strong>Titulación</strong></td>
-      <td class="text-center"><strong>Lugar</strong></td>
-      <td class="text-center"><strong>Duración</strong></td>
-    </tr>
-    <tr>
-      <td>Título 1</td>
-      <td>Lugar 1 <a href="www.coacm.org">Enlace 01</a></td>
-      <td>Duración 1</td>
-    </tr>
-    <tr>
-      <td>Título 2</td>
-      <td>Lugar 2 <a href="www.coacm.org">Enlace 02</a></td>
-      <td>Duración 2</td>
-    </tr><tr>
-      <td>Título n</td>
-      <td>Lugar n <a href="www.coacm.org">Enlace n</a></td>
-      <td>Duración n</td>
-    </tr>
-  </table>
-  <br>
+  <!--<h1>Carlos Sánchez-Castro Coy. Arquitecto especializado en GIS
+  <span><img id="Foto" src="resources/foto.jpg" alt="Foto de Carlos Sánchez-Castro Coy"></span>
+</h1>
+<br>-->
 
-  <h2>Formación complementaria<span class="icon">&#xe91a;</span></h2>
-  <br>
+<h2 id="Experiencia">Experiencia profesional<span class="icon">&#xe903;</span></h2>
+<br>
+<table>
+  <tr>
+    <td class="text-center"><strong>Empresa</strong></td>
+    <td class="text-center"><strong>Lugar</strong></td>
+    <td class="text-center"><strong>Duración</strong></td>
+  </tr>
+  <tr>
+    <td>Empresa 1</td>
+    <td>Lugar 1 <a href="www.coacm.org">Enlace 01</a></td>
+    <td>Duración 1</td>
+  </tr>
+  <tr>
+    <td>Empresa 2</td>
+    <td>Lugar 2 <a href="www.coacm.org">Enlace 02</a></td>
+    <td>Duración 2</td>
+  </tr><tr>
+    <td>Empresa n</td>
+    <td>Lugar n <a href="www.coacm.org">Enlace n</a></td>
+    <td>Duración n</td>
+  </tr>
+</table>
+<br>
+<h2 id="FormacionAcademica">Formación académica<span class="icon">&#xe914;</span></h2>
+<br>
+<table>
+  <tr>
+    <td class="text-center"><strong>Titulación</strong></td>
+    <td class="text-center"><strong>Lugar</strong></td>
+    <td class="text-center"><strong>Duración</strong></td>
+  </tr>
+  <tr>
+    <td>Título 1</td>
+    <td>Lugar 1 <a href="www.coacm.org">Enlace 01</a></td>
+    <td>Duración 1</td>
+  </tr>
+  <tr>
+    <td>Título 2</td>
+    <td>Lugar 2 <a href="www.coacm.org">Enlace 02</a></td>
+    <td>Duración 2</td>
+  </tr><tr>
+    <td>Título n</td>
+    <td>Lugar n <a href="www.coacm.org">Enlace n</a></td>
+    <td>Duración n</td>
+  </tr>
+</table>
+<br>
+<h2 id="FormacionComplementaria">Formación complementaria<span class="icon">&#xe91a;</span></h2>
+<br>
+<table>
+  <tr>
+    <td class="text-center"><strong>Curso</strong></td>
+    <td class="text-center"><strong>Lugar</strong></td>
+    <td class="text-center"><strong>Duración</strong></td>
+  </tr>
+  <tr>
+    <td>Curso 1</td>
+    <td>Lugar 1 <a href="www.coacm.org">Enlace 01</a></td>
+    <td>Duración 1</td>
+  </tr>
+  <tr>
+    <td>Curso 2</td>
+    <td>Lugar 2 <a href="www.coacm.org">Enlace 02</a></td>
+    <td>Duración 2</td>
+  </tr><tr>
+    <td>Curso n</td>
+    <td>Lugar n <a href="www.coacm.org">Enlace n</a></td>
+    <td>Duración n</td>
+  </tr>
+</table>
+<br>
+<h2 id="Habilidades">Habilidades y conocimientos<span class="icon">&#xe90d;</span></h2>
+<br>
+<ul>
+  <li><strong>CAD/3D:</strong> AutoCAD</li>
+  <li><strong>GIS/SIG:</strong> ArcGIS</li>
+  <li><strong>BIM:</strong> Revit</li>
+  <li><strong>Diseño gráfico:</strong> Illustrator</li>
+  <li><strong>Ofimática:</strong> Office 365</li>
+  <li><strong>Cálculo:</strong> CypeCAD</li>
+</ul>
+<br>
+<h2 id="Otros">Otros datos de interés<span class="icon">&#xe904;</span></h2>
+<br>
+<ul>
+  <li><strong>Afiliaciones profesionales:</strong> <a href="www.coacm.org">Colegio Oficial de Arquitectos de Castilla-La Mancha</a> (COACM)</li>
+  <li><strong>Disponibilidad para viajar:</strong> Sí</li>
+  <li><strong>Cambio de residencia:</strong> Sí</li>
+  <li><strong>Licencia de conducir:</strong> B</li>
+</ul>
+<br>
+<h2 id="Contacto">Contacto<a class="icon-link" href="https://es.linkedin.com/"><span class="icon">&#xe930;</span></a>
+  <a class="icon-link" href="https://es.pinterest.com/csanchezcastro/"><span class="icon">&#xe931;</span></a>
+  <a class="icon-link" href="http://facebook.com/carlossanchezcastro"><span class="icon">&#xe92e;</span></a>
+  <a class="icon-link" href="https://twitter.com/csanchezcastro"><span class="icon">&#xe932;</span>
+  </a><a class="icon-link" href="mailto:arq.csanchezcastro@outlook.com"><span class="icon">&#xe91c;</span></a>
+</h2>
+<br>
 
-  <table>
-    <tr>
-      <td class="text-center"><strong>Curso</strong></td>
-      <td class="text-center"><strong>Lugar</strong></td>
-      <td class="text-center"><strong>Duración</strong></td>
-    </tr>
-    <tr>
-      <td>Curso 1</td>
-      <td>Lugar 1 <a href="www.coacm.org">Enlace 01</a></td>
-      <td>Duración 1</td>
-    </tr>
-    <tr>
-      <td>Curso 2</td>
-      <td>Lugar 2 <a href="www.coacm.org">Enlace 02</a></td>
-      <td>Duración 2</td>
-    </tr><tr>
-      <td>Curso n</td>
-      <td>Lugar n <a href="www.coacm.org">Enlace n</a></td>
-      <td>Duración n</td>
-    </tr>
-  </table>
-  <br>
-
-  <h2>Habilidades y conocimientos<span class="icon">&#xe90d;</span></h2>
-  <br>
-
-  <ul>
-    <li><strong>CAD/3D:</strong> AutoCAD</li>
-    <li><strong>GIS/SIG:</strong> ArcGIS</li>
-    <li><strong>BIM:</strong> Revit</li>
-    <li><strong>Diseño gráfico:</strong> Illustrator</li>
-    <li><strong>Ofimática:</strong> Office 365</li>
-    <li><strong>Cálculo:</strong> CypeCAD</li>
-  </ul>
-  <br>
-
-  <h2>Otros datos de interés<span class="icon">&#xe904;</span></h2>
-  <ul>
-    <li><strong>Afiliaciones profesionales:</strong> <a href="www.coacm.org">Colegio Oficial de Arquitectos de Castilla-La Mancha</a> (COACM)</li>
-    <li><strong>Disponibilidad para viajar:</strong> Sí</li>
-    <li><strong>Cambio de residencia:</strong> Sí</li>
-    <li><strong>Licencia de conducir:</strong> B</li>
-  </ul>
-  <br>
-
-  <h2>Contacto<a class="icon-link" href="https://es.linkedin.com/"><span class="icon">&#xe930;</span></a><a class="icon-link" href="https://es.pinterest.com/csanchezcastro/"><span class="icon">&#xe931;</span></a><a class="icon-link" href="http://facebook.com/carlossanchezcastro"><span class="icon">&#xe92e;</span></a><a class="icon-link" href="https://twitter.com/csanchezcastro"><span class="icon">&#xe932;</span></a><a class="icon-link" href="mailto:arq.csanchezcastro@outlook.com"><span class="icon">&#xe91c;</span></a></h2>
-  <br>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
