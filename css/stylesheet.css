@@ -12,7 +12,7 @@ body {
 }
 
 .navbar-default {
-    background-color: #2196F3;
+    background-color: #0275d8;
 }
 
 .navbar-default .navbar-brand {
@@ -31,8 +31,23 @@ body {
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: #FFC107;
+    color: #FFEB3B;
     background-color: transparent;
+}
+
+.table th, .table td {
+    border-top: none !important;
+    border-left: none !important;
+}
+
+.table tbody tr td.info {
+		background-color: #5bc0de !important;
+		color: white;
+}
+
+.text-progress-bar {
+	float:left;
+	padding-left: 5px;
 }
 
 h1 {
@@ -45,7 +60,7 @@ h1 {
 	font-size: 30px;
 	font-family: 'Noto Sans', sans-serif;
 	color: white;
-	background-color: #2196F3;
+	background-color: #0275d8;
 	border-radius: 4px;
 }
 
@@ -78,7 +93,7 @@ h2 {
 	font-size: 20px;
 	font-family: 'Noto Sans', sans-serif;
 	color: white;
-	background-color: #2196F3;
+	background-color: #0275d8;
 	border-radius: 4px;
 }
 
@@ -108,16 +123,16 @@ a {
 }
 
 a:visited {
-	color: #FFC107;
+	color: #FFEB3B;
 }
 
 a:hover {
-	color: #FFC107;
+	color: #FFEB3B;
 	text-decoration: none;
 	opacity: 1;
 }
 a:active {
-	color: #FFC107;
+	color: #FFEB3B;
 }
 
 .icon-link {
@@ -130,14 +145,14 @@ a:active {
 }
 
 .icon-link:visited {
-	color: #FFC107;
+	color: #FFEB3B;
 }
 
 .icon-link:hover {
-	color: #FFC107;
+	color: #FFEB3B;
 	text-decoration: none;
 	opacity: 1;
 }
 .icon-link:active {
-	color: #FFC107;
+	color: #FFEB3B;
 }
