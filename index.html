@@ -18,16 +18,10 @@
 <body>
   <!-- Fixed navbar -->
   <nav class="navbar navbar-default">
-    <div class="container">
+    <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
         <img id="fotonavbar" src="resources/foto.png" alt="Foto de Carlos Sánchez-Castro Coy">
-        <a class="navbar-brand" href="#Inicio">Carlos Sánchez-Castro Coy<br><br><small>Arquitecto. Analista y desarrollador GIS (en formación)</small></a>
+        <a id="Inicio" class="navbar-brand" href="#">Carlos Sánchez-Castro Coy<br><br><small>Arquitecto. Analista y desarrollador GIS (en formación)</small></a>
       </div>
 
       <form class="navbar-form navbar-right" role="search">
@@ -55,322 +49,413 @@
     </div>
   </nav>
 
-  <!--<h1>Carlos Sánchez-Castro Coy. Arquitecto especializado en GIS
-  <span><img id="Foto" src="resources/foto.jpg" alt="Foto de Carlos Sánchez-Castro Coy"></span>
-</h1>
-<br>-->
+  <!--<div>
+  <h2 id="Experiencia">Experiencia profesional</h2>
+  <div class="icon-space">
+  <span class="icon-subsection">&#xe903;</span>
+</div>
+</div>-->
 
-<h2 id="Experiencia">Experiencia profesional<span class="icon">&#xe903;</span></h2>
+<div class="container">
+  <h2 id="Experiencia">Experiencia profesional<span class= "icon">&#xe903;</span>
+    <a class="goup-link" href="#">
+      <span class="dropup">
+        <span class="caret"></span>
+      </span>
+    </a>
+  </h2>
+
+  <br>
+  <table class="table table-hover table-condensed">
+    <tr>
+      <td class="col-md-3 text-center">2013 - Actualidad</td>
+      <td class="col-md-9 info">Asesor Senior de Internet y Social Media para España</td>
+    </tr>
+    <tr>
+      <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+      <td class="col-md-9">Lionbridge Technologies, Inc. <a href="http://www.lionbridge.com/es-es/">Más información</a></td>
+    </tr>
+    <tr>
+      <td class="col-md-3 text-center"><span class="icon-blue">&#xe915;</span></td>
+      <td class="col-md-9">Contribución a la mejora de la calidad de los resultados de uno de los más conocidos motores de búsqueda de Internet<br>
+        El puesto requiere:
+        <ul>
+          <li>Capacidad para trabajar y gestionar el tiempo de manera autónoma</li>
+          <li>Habilidades analíticas y gran atención al detalle</li>
+          <li>Flexibilidad para adaptarse a nuevos métodos de trabajo</li>
+          <li>Poseer una amplia cultura general y un gran interés por Internet</li>
+          <li>Trabajo realizado íntegramente en inglés</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+  <table class="table table-hover table-condensed">
+    <tr>
+      <td class="col-md-3 text-center">Enero 2014 - Abril 2015</td>
+      <td class="col-md-9 info">Trabajos en Estudio de Arquitectura</td>
+    </tr>
+    <tr>
+      <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+      <td class="col-md-9">Díaz Romero Arquitectos S.L.P. <a href="http://diaz-romero.com/">Más información</a></td>
+    </tr>
+    <tr>
+      <td class="col-md-3 text-center"><span class="icon-blue">&#xe915;</span></td>
+      <td class="col-md-9">
+        <ul>
+          <li>Diseño y delineado de proyectos de arquitectura</li>
+          <li>Cálculo y delineado de estructuras de hormigón armado</li>
+          <li>Cálculo y delineado de instalaciones de fontanería, saneamiento, electricidad y climatización</li>
+          <li>Redacción de memorias CTE, Pliegos de Condiciones, y Estudios de Seguridad y Salud</li>
+          <li>Mediciones, presupuestos, certificaciones de proyectos</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+  <!--<div>
+  <h2 id="FormacionAcademica">Formación Académica</h2>
+  <div class="icon-space">
+  <span class="icon-subsection">&#xe914;</span>
+</div>
+</div>-->
+
+<h2 id="FormacionAcademica">Formación académica<span class="icon">&#xe914;</span>
+  <a class="goup-link" href="#Experiencia">
+    <span class="dropup">
+      <span class="caret"></span>
+    </span>
+  </a>
+</h2>
+
 <br>
 <table class="table table-hover table-condensed">
   <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Puesto</td>
+    <td class="col-md-3 text-center">Junio 2011</td>
+    <td class="col-md-9 info">Arquitectura. Especialidad de Edificación</td>
   </tr>
   <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">Empresa</td>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9"><a href="http://etsamadrid.aq.upm.es/">Escuela Técnica Superior de Arquitectura de Madrid</a> (ETSAM) de la Universidad Politécnica de Madrid (UPM)</td>
   </tr>
   <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe915;</span></td>
-    <td class="col-md-10">Descripción</td>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe915;</span></td>
+    <td class="col-md-9">PFC realizado bajo la tutela de <a href="https://es.wikipedia.org/wiki/Luis_Moreno_Mansilla">Luis Moreno García-Mansilla</a>, Catedrático de Proyectos de la ETSAM y Premio Mies van der Rohe de la Unión Europea</td>
   </tr>
 </table>
 
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Puesto</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">Empresa</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe915;</span></td>
-    <td class="col-md-10">Descripción</td>
-  </tr>
-</table>
+<!--<div>
+<h2 id="FormacionComplementaria">Formación complementaria</h2>
+<div class="icon-space">
+<span class="icon-subsection">&#xe91a;</span>
+</div>
+</div>-->
 
-<h2 id="FormacionAcademica">Formación académica<span class="icon">&#xe914;</span></h2>
+<h2 id="FormacionComplementaria">Formación complementaria<span class="icon">&#xe91a;</span>
+  <a class="goup-link" href="#FormacionAcademica">
+    <span class="dropup">
+      <span class="caret"></span>
+    </span>
+  </a>
+</h2>
+
 <br>
 <table class="table table-hover table-condensed">
   <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
+    <td class="col-md-3 text-center">Actualmente</td>
+    <td class="col-md-9 info">Máster GIS de Esri España</td>
   </tr>
   <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">Lugar</td>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9">Esri España. <a href="http://mastergis.esri.es/">Más información</a></td>
   </tr>
   <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe915;</span></td>
-    <td class="col-md-10">Descripción</td>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90e;</span></td>
+    <td class="col-md-9">440 horas teóricas + 280 horas prácticas</td>
   </tr>
 </table>
 <table class="table table-hover table-condensed">
   <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
+    <td class="col-md-3 text-center">Actualmente</td>
+    <td class="col-md-9 info"><strong>Máster en Sistemas de Información Geográfica aplicados a la Ordenación del Territorio, el Urbanismo y el Paisaje</strong></td>
   </tr>
   <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">Lugar</td>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9">Centro de Formación Permanente de la Universidad Politécnica de Valencia. <a href="http://www.cursosigupv.com/">Más información</a></td>
   </tr>
   <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe915;</span></td>
-    <td class="col-md-10">Descripción</td>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90e;</span></td>
+    <td class="col-md-9">640 horas - 64 créditos ECTS</td>
+  </tr>
+</table>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Marzo 2016</td>
+    <td class="col-md-9 info">Curso de ArchiCAD</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9"><a href="http://www.coacm.org/">Colegio Oficial de Arquitectos de Castilla-La Mancha</a></td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
+    <td class="col-md-9">30 horas</td>
+  </tr>
+</table>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Junio 2015</td>
+    <td class="col-md-9 info">X Jornadas del Consejo General del Poder Judicial y el Consejo Superior de Colegios de Arquitectos de España</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9">Almería. <a href="http://www.uapfe.com/jornadas/">Más información</a></td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
+    <td class="col-md-9">Días 3, 4, 5 y 6 de Junio de 2015</td>
+  </tr>
+</table>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Mayo 2015</td>
+    <td class="col-md-9 info">Curso de iniciación al BIM con Autodesk Revit</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9"><a href="http://www.coacm.org/">Colegio Oficial de Arquitectos de Castilla-La Mancha</a></td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
+    <td class="col-md-9">18 horas</td>
+  </tr>
+</table>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Enero 2015</td>
+    <td class="col-md-9 info">Curso de Sistemas de Información Geográfica</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9"><a href="http://www.efinnova.com/">Efinnova Consultoría y Formación</a></td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
+    <td class="col-md-9">140 horas teóricas + 100 horas prácticas</td>
+  </tr>
+</table>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Mayo 2014</td>
+    <td class="col-md-9 info">Curso de SketchUp</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9">Instituto de Formación Continua del Colegio Oficial de Arquitectos de Madrid. <a href="http://www.coam.org/es/formacion">Más información</a></td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
+    <td class="col-md-9">15 horas</td>
+  </tr>
+</table>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Mayo 2014</td>
+    <td class="col-md-9 info">Curso de 3D Studio Max avanzado</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9">Instituto de Formación Continua del Colegio Oficial de Arquitectos de Madrid. <a href="http://www.coam.org/es/formacion">Más información</a></td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
+    <td class="col-md-9">18 horas</td>
+  </tr>
+</table>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Abril 2014</td>
+    <td class="col-md-9 info">Experto en Calificación y Certificación Energética de Edificios</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9"><a href="https://www.mantia.es/">Mantia Formación y Empleo</a></td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
+    <td class="col-md-9">240 horas</td>
+  </tr>
+</table>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Marzo 2014</td>
+    <td class="col-md-9 info">Curso de 3D Studio Max + VRAY</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9"><a href="http://alumnia.aq.upm.es/">ALUMNIA</a> - Asociación de Antiguos Alumnos de la ETSAM</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
+    <td class="col-md-9">16 horas</td>
+  </tr>
+</table>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Febrero 2014</td>
+    <td class="col-md-9 info">Cursos I y II de Instalaciones de Edificios (CYPECAD MEP)</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9">Instituto de Formación Continua del Colegio Oficial de Arquitectos de Madrid. <a href="http://www.coam.org/es/formacion">Más información</a></td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
+    <td class="col-md-9">15+15 horas</td>
+  </tr>
+</table>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Febrero 2014</td>
+    <td class="col-md-9 info">Curso de CYPE Hormigón (CYPECAD)</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9">Instituto de Formación Continua del Colegio Oficial de Arquitectos de Madrid. <a href="http://www.coam.org/es/formacion">Más información</a></td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
+    <td class="col-md-9">30 horas</td>
+  </tr>
+</table>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Septiembre 2013</td>
+    <td class="col-md-9 info">Curso Básico de Valoraciones Inmobiliarias</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9">Cátedra Universidad - Empresa de Valoraciones Inmobiliarias de la ETSAM. <a href="http://etsamadrid.aq.upm.es/dcta/investigacion/catedras%20universidad%20empresa/valoraciones">Más información</a></td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
+    <td class="col-md-9">8 horas</td>
+  </tr>
+</table>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Enero 2013</td>
+    <td class="col-md-9 info">Curso de Certificación Energética en Edificios Existentes (CE3X)</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-10"><a href="https://www.inarqe.es/">inARQe</a> - Instituto de Innovación en Arquitectura Eficiente en el Colegio Oficial de Aparejadores, Arquitectos Técnicos e Ingenieros de la Edificación de Albacete</td>
+  </tr>
+  <tr>
+    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90c;</span></td>
+    <td class="col-md-9">15+5 horas (Jornada Técnica CE3X Avanzado)</td>
+  </tr>
+</table>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Noviembre 2012</td>
+    <td class="col-md-9 info">Curso de Autodesk Revit. Modelización de Edificios (BIM)</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9"><a href="http://www.structuralia.com/es/">Structuralia</a></td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
+    <td class="col-md-9">50 horas</td>
+  </tr>
+</table>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Octubre 2012</td>
+    <td class="col-md-9 info">Curso de Presto</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9"><a href="http://www.structuralia.com/es/">Structuralia</a></td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
+    <td class="col-md-9">20 horas</td>
   </tr>
 </table>
 
-<h2 id="FormacionComplementaria">Formación complementaria<span class="icon">&#xe91a;</span></h2>
+<!--<div>
+<h2 id="Habilidades">Habilidades y conocimientos</h2>
+<div class="icon-space">
+<span class="icon-subsection">&#xe90d;</span>
+</div>
+</div>-->
+
+<h2 id="Habilidades">Habilidades y conocimientos<span class="icon">&#xe90d;</span>
+  <a class="goup-link" href="#FormacionComplementaria">
+    <span class="dropup">
+      <span class="caret"></span>
+    </span>
+  </a>
+</h2>
+
 <br>
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">COAM</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90e;</span></td>
-    <td class="col-md-10">20 horas</td>
-  </tr>
-</table>
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">COAM</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90e;</span></td>
-    <td class="col-md-10">20 horas</td>
-  </tr>
-</table>
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">COAM</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90e;</span></td>
-    <td class="col-md-10">20 horas</td>
-  </tr>
-</table>
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">COAM</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90c;</span></td>
-    <td class="col-md-10">20 horas</td>
-  </tr>
-</table>
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">COAM</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90c;</span></td>
-    <td class="col-md-10">20 horas</td>
-  </tr>
-</table>
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">COAM</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90c;</span></td>
-    <td class="col-md-10">20 horas</td>
-  </tr>
-</table>
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">COAM</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90c;</span></td>
-    <td class="col-md-10">20 horas</td>
-  </tr>
-</table>
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">COAM</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90c;</span></td>
-    <td class="col-md-10">20 horas</td>
-  </tr>
-</table>
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">COAM</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90c;</span></td>
-    <td class="col-md-10">20 horas</td>
-  </tr>
-</table>
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">COAM</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90c;</span></td>
-    <td class="col-md-10">20 horas</td>
-  </tr>
-</table>
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">COAM</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90c;</span></td>
-    <td class="col-md-10">20 horas</td>
-  </tr>
-</table>
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">COAM</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90c;</span></td>
-    <td class="col-md-10">20 horas</td>
-  </tr>
-</table>
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">COAM</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90c;</span></td>
-    <td class="col-md-10">20 horas</td>
-  </tr>
-</table>
-<table class="table table-hover table-condensed">
-  <tr>
-    <td class="col-md-2 text-center">Fecha</td>
-    <td class="col-md-10 info">Titulación</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10">COAM</td>
-  </tr>
-  <tr>
-    <td class="col-md-2 text-center"><span class="icon-blue">&#xe90c;</span></td>
-    <td class="col-md-10">20 horas</td>
-  </tr>
-</table>
-
-<h2 id="Habilidades">Habilidades y conocimientos<span class="icon">&#xe90d;</span></h2>
-<br>
-
-
 <div class="row">
   <div class="col-md-3">
-    <strong>CAD/3D/BIM</strong><span class="icon-blue">&#xe90f;</span>
+    <strong>CAD / 3D / BIM</strong><span class="icon-blue">&#xe90f;</span>
     <div class="progress">
-      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-        <span class="text-progress-bar">AutoCAD</span>
+      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+        <span class="text-progress-bar">AutoCAD 2D/3D</span>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+        <span class="text-progress-bar">3D Studio Max</span>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+        <span class="text-progress-bar">Revit</span>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+        <span class="text-progress-bar">Archicad</span>
       </div>
     </div>
     <div class="progress">
       <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-        <span class="text-progress-bar">AutoCAD</span>
+        <span class="text-progress-bar">Allplan</span>
       </div>
     </div>
     <div class="progress">
-      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-        <span class="text-progress-bar">AutoCAD</span>
+      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+        <span class="text-progress-bar">SketchUp</span>
       </div>
     </div>
     <div class="progress">
-      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-        <span class="text-progress-bar">AutoCAD</span>
+      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+        <span class="text-progress-bar">Piranesi</span>
       </div>
     </div>
   </div>
 
   <div class="col-md-3">
-    <strong>GIS/SIG</strong><span class="icon-blue">&#xe913;</span>
+    <strong>GIS / SIG</strong><span class="icon-blue">&#xe913;</span>
     <div class="progress">
-      <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+      <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
         <span class="text-progress-bar">ArcGIS</span>
       </div>
     </div>
     <div class="progress">
-      <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-        <span class="text-progress-bar">ArcGIS</span>
+      <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+        <span class="text-progress-bar">QGIS</span>
       </div>
     </div>
     <div class="progress">
-      <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-        <span class="text-progress-bar">ArcGIS</span>
-      </div>
-    </div>
-    <div class="progress">
-      <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-        <span class="text-progress-bar">ArcGIS</span>
+      <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+        <span class="text-progress-bar">gvSIG</span>
       </div>
     </div>
   </div>
@@ -384,17 +469,22 @@
     </div>
     <div class="progress">
       <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-        <span class="text-progress-bar">CypeCAD</span>
+        <span class="text-progress-bar">CypeCAD MEP</span>
       </div>
     </div>
     <div class="progress">
-      <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-        <span class="text-progress-bar">CypeCAD</span>
+      <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+        <span class="text-progress-bar">HULC</span>
       </div>
     </div>
     <div class="progress">
-      <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-        <span class="text-progress-bar">CypeCAD</span>
+      <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+        <span class="text-progress-bar">CE3X</span>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+        <span class="text-progress-bar">Presto</span>
       </div>
     </div>
   </div>
@@ -402,68 +492,99 @@
   <div class="col-md-3">
     <strong>Diseño gráfico</strong><span class="icon-blue">&#xe921;</span>
     <div class="progress">
-      <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+      <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
         <span class="text-progress-bar">Illustrator</span>
       </div>
     </div>
     <div class="progress">
-      <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-        <span class="text-progress-bar">Illustrator</span>
+      <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+        <span class="text-progress-bar">CorelDRAW</span>
       </div>
     </div>
     <div class="progress">
       <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-        <span class="text-progress-bar">Illustrator</span>
+        <span class="text-progress-bar">Photoshop</span>
       </div>
     </div>
     <div class="progress">
       <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-        <span class="text-progress-bar">Illustrator</span>
+        <span class="text-progress-bar">Pixelmator</span>
       </div>
     </div>
   </div>
 </div>
 
-<h2 id="Otros">Otros datos de interés<span class="icon">&#xe904;</span></h2>
+<!--<div>
+<h2 id="Otros">Otros datos de interés</h2>
+<div class="icon-space">
+<span class="icon-subsection">&#xe904;</span>
+</div>
+</div>-->
+
+<h2 id="Otros">Otros datos de interés<span class="icon">&#xe904;</span>
+  <a class="goup-link" href="#Habilidades">
+    <span class="dropup">
+      <span class="caret"></span>
+    </span>
+  </a>
+</h2>
+
 <br>
 <div class="row">
   <div class="col-md-3">
     <span class="icon-blue-left">&#xe902;</span><strong> Disponibilidad</strong><br>
     <ul>
-        <li>Cambio de residencia: Inmediata</li>
-        <li>Viajar: Inmediata</li>
+      <li>Cambio de residencia: Inmediata</li>
+      <li>Viajar: Inmediata</li>
     </ul>
     <span class="icon-blue-left">&#xe92d;</span><strong> Permiso de conducir</strong><br>
     <ul>
-        <li>B</li>
+      <li>B</li>
     </ul>
   </div>
 
   <div class="col-md-3">
-      <span class="icon-blue-left">&#xe92c;</span><strong> Afiliaciones profesionales</strong><br>
-      <a href="www.coacm.org">Colegio Oficial de Arquitectos de Castilla-La Mancha</a> (COACM)
+    <span class="icon-blue-left">&#xe92c;</span><strong> Afiliaciones profesionales</strong><br>
+    <a href="http://www.coacm.org">Colegio Oficial de Arquitectos de Castilla-La Mancha</a> (COACM)
   </div>
   <div class="col-md-3">
     <span class="icon-blue-left">&#xe917;</span><strong> Idiomas</strong><br>
-    Inglés
+    <strong>Inglés</strong>
     <ul>
-        <li>Escrito: Medio</li>
-        <li>Hablado: Medio</li>
+      <li>Escrito: Medio</li>
+      <li>Hablado: Medio</li>
     </ul>
   </div>
   <div class="col-md-3">
-    <span class="icon-blue-left">&#xe924;</span><strong> Aficiones</strong>
+    <span class="icon-blue-left">&#xe934;</span><strong> Aficiones</strong><br>
+    <img id="aficiones" src="resources/aficiones.svg" alt="Aficiones de Carlos Sánchez-Castro Coy">
   </div>
 </div>
 
-<h2 id="Contacto">Contacto<a class="icon-link" href="https://es.linkedin.com/"><span class="icon">&#xe930;</span></a>
+<!--<div>
+<h2 id="Contacto">Contacto</h2>
+<div class="icon-space">
+<a class="icon-link" href="https://es.linkedin.com/"><span class="icon-subsection">&#xe930;</span></a>
+<a class="icon-link" href="https://es.pinterest.com/csanchezcastro/"><span class="icon-subsection">&#xe931;</span></a>
+<a class="icon-link" href="https://twitter.com/csanchezcastro"><span class="icon-subsection">&#xe932;</span>
+</a><a class="icon-link" href="mailto:arq.csanchezcastro@outlook.com"><span class="icon-subsection">&#xe91c;</span></a>
+</div>
+</div>-->
+
+<h2 id="Contacto">Contacto
+  <a class="icon-link" href="https://es.linkedin.com/"><span class="icon">&#xe930;</span></a>
   <a class="icon-link" href="https://es.pinterest.com/csanchezcastro/"><span class="icon">&#xe931;</span></a>
-  <a class="icon-link" href="http://facebook.com/carlossanchezcastro"><span class="icon">&#xe92e;</span></a>
   <a class="icon-link" href="https://twitter.com/csanchezcastro"><span class="icon">&#xe932;</span>
   </a><a class="icon-link" href="mailto:arq.csanchezcastro@outlook.com"><span class="icon">&#xe91c;</span></a>
+  <a class="goup-link" href="#">
+    <span class="dropup">
+      <span class="caret"></span>
+    </span>
+  </a>
 </h2>
-<br>
 
+<br>
+</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
