@@ -9,34 +9,55 @@
   <meta name="description" content="Carlos Sánchez-Castro Coy - Arquitecto">
   <meta name="keywords" content="Carlos Sánchez-Castro Coy, Arquitecto, Arquitectura, GIS, SIG, Madrid, Albacete">
   <link rel="stylesheet" href="css/reset.css">
+  <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/stylesheet.css">
   <link rel="stylesheet" href="icomoon/icomoon.css">
 </head>
 
 <body>
-  <!-- Fixed navbar -->
-  <nav class="navbar navbar-default">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
-        <img id="fotonavbar" src="resources/foto.png" alt="Foto de Carlos Sánchez-Castro Coy">
-        <a id="Inicio" class="navbar-brand" href="#">Carlos Sánchez-Castro Coy<br><br><small>Arquitecto. Analista y desarrollador GIS (en formación)</small></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Carlos Sánchez-Castro Coy</a>
       </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+
+        <!--<ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>-->
 
       <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Buscar">
         </div>
-        <button type="submit" class="btn btn-default">Enviar</button>
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
       </form>
 
+      <!-- Split button -->
       <div class="btn-group navbar-right">
+        <button type="button" class="btn btn-default navbar-btn">Menu</button>
         <button type="button" class="btn btn-default dropdown-toggle navbar-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Menu <span class="caret"></span>
+          <span class="caret"></span>
+          <span class="sr-only">Toggle Dropdown</span>
         </button>
         <ul class="dropdown-menu">
-          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="#">Inicio</a></li>
           <li><a href="#Experiencia">Experiencia profesional</a></li>
           <li><a href="#FormacionAcademica">Formación académica</a></li>
           <li><a href="#FormacionComplementaria">Formación complementaria</a></li>
@@ -47,80 +68,279 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <!--<div>
-  <h2 id="Experiencia">Experiencia profesional</h2>
-  <div class="icon-space">
-  <span class="icon-subsection">&#xe903;</span>
+<!-- Navbar 1.0
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<div class="navbar-header">
+<img id="fotonavbar" src="resources/foto.png" alt="Foto de Carlos Sánchez-Castro Coy">
+<a id="Inicio" class="navbar-brand" href="#">Carlos Sánchez-Castro Coy<br><br><small>Arquitecto. Analista y desarrollador GIS (en formación)</small></a>
 </div>
-</div>-->
+
+<form class="navbar-form navbar-right" role="search">
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Buscar">
+</div>
+<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+</form>
+
+<div class="btn-group navbar-right">
+<button type="button" class="btn btn-default dropdown-toggle navbar-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Menu <span class="caret"></span>
+</button>
+<ul class="dropdown-menu">
+<li><a href="#Inicio">Inicio</a></li>
+<li><a href="#Experiencia">Experiencia profesional</a></li>
+<li><a href="#FormacionAcademica">Formación académica</a></li>
+<li><a href="#FormacionComplementaria">Formación complementaria</a></li>
+<li><a href="#Habilidades">Habilidades y conocimientos</a></li>
+<li><a href="#Otros">Otros datos de interés</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="#Contacto">Contacto</a></li>
+</ul>
+</div>
+</div>
+</nav>-->
 
 <div class="container">
-  <h2 id="Experiencia">Experiencia profesional<span class= "icon">&#xe903;</span>
-    <a class="goup-link" href="#">
-      <span class="dropup">
-        <span class="caret"></span>
-      </span>
-    </a>
-  </h2>
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 text-center">
+          <img id="fotojumbo" src="resources/foto.png" alt="Foto de Carlos Sánchez-Castro Coy">
+        </div>
+        <div class="col-md-10">
+          <h1>Carlos Sánchez-Castro Coy</h1>
+          <p>Arquitecto. Analista y desarrollador GIS (en formación)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-  <br>
-  <table class="table table-hover table-condensed">
-    <tr>
-      <td class="col-md-3 text-center">2013 - Actualidad</td>
-      <td class="col-md-9 info">Asesor Senior de Internet y Social Media para España</td>
-    </tr>
-    <tr>
-      <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-      <td class="col-md-9">Lionbridge Technologies, Inc. <a href="http://www.lionbridge.com/es-es/">Más información</a></td>
-    </tr>
-    <tr>
-      <td class="col-md-3 text-center"><span class="icon-blue">&#xe915;</span></td>
-      <td class="col-md-9">Contribución a la mejora de la calidad de los resultados de uno de los más conocidos motores de búsqueda de Internet<br>
-        El puesto requiere:
-        <ul>
-          <li>Capacidad para trabajar y gestionar el tiempo de manera autónoma</li>
-          <li>Habilidades analíticas y gran atención al detalle</li>
-          <li>Flexibilidad para adaptarse a nuevos métodos de trabajo</li>
-          <li>Poseer una amplia cultura general y un gran interés por Internet</li>
-          <li>Trabajo realizado íntegramente en inglés</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
+<div id="micarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#micarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#micarousel" data-slide-to="1"></li>
+    <li data-target="#micarousel" data-slide-to="2"></li>
+    <li data-target="#micarousel" data-slide-to="3"></li>
+    <li data-target="#micarousel" data-slide-to="4"></li>
+    <li data-target="#micarousel" data-slide-to="5"></li>
+    <li data-target="#micarousel" data-slide-to="6"></li>
+    <li data-target="#micarousel" data-slide-to="7"></li>
+    <li data-target="#micarousel" data-slide-to="8"></li>
+    <li data-target="#micarousel" data-slide-to="9"></li>
+    <li data-target="#micarousel" data-slide-to="10"></li>
+    <li data-target="#micarousel" data-slide-to="11"></li>
+    <li data-target="#micarousel" data-slide-to="12"></li>
+    <li data-target="#micarousel" data-slide-to="13"></li>
+    <li data-target="#micarousel" data-slide-to="14"></li>
+    <li data-target="#micarousel" data-slide-to="14"></li>
+    <li data-target="#micarousel" data-slide-to="14"></li>
+    <li data-target="#micarousel" data-slide-to="14"></li>
+  </ol>
 
-  <table class="table table-hover table-condensed">
-    <tr>
-      <td class="col-md-3 text-center">Enero - Abril 2015</td>
-      <td class="col-md-9 info">Trabajos en Estudio de Arquitectura</td>
-    </tr>
-    <tr>
-      <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-      <td class="col-md-9">Díaz Romero Arquitectos S.L.P. <a href="http://diaz-romero.com/">Más información</a></td>
-    </tr>
-    <tr>
-      <td class="col-md-3 text-center"><span class="icon-blue">&#xe915;</span></td>
-      <td class="col-md-9">
-        <ul>
-          <li>Diseño y delineado de proyectos de arquitectura</li>
-          <li>Cálculo y delineado de estructuras de hormigón armado</li>
-          <li>Cálculo y delineado de instalaciones de fontanería, saneamiento, electricidad y climatización</li>
-          <li>Redacción de memorias CTE, Pliegos de Condiciones, y Estudios de Seguridad y Salud</li>
-          <li>Mediciones, presupuestos, certificaciones de proyectos</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img class="center-block" src="resources/Alcoy_01.png" alt="01">
+      <div class="carousel-caption">
+        Alcoy_01
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/Alcoy_02.png" alt="02">
+      <div class="carousel-caption">
+        Alcoy_02
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/Alcoy_03.png" alt="02">
+      <div class="carousel-caption">
+        Alcoy_03
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/Alcoy_04.png" alt="02">
+      <div class="carousel-caption">
+        Alcoy_04
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/Alcoy_05.png" alt="02">
+      <div class="carousel-caption">
+        Alcoy_05
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/Ibi_01.png" alt="02">
+      <div class="carousel-caption">
+        Ibi_01
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/Ibi_02.png" alt="02">
+      <div class="carousel-caption">
+        Ibi_02
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/San_Sebastian.png" alt="02">
+      <div class="carousel-caption">
+        San_Sebastian
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/Valencia_01.png" alt="02">
+      <div class="carousel-caption">
+        Valencia_01
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/Valencia_02.png" alt="02">
+      <div class="carousel-caption">
+        Valencia_02
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/Valencia_03.png" alt="02">
+      <div class="carousel-caption">
+        Valencia_03
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/Valencia_04.png" alt="02">
+      <div class="carousel-caption">
+        Valencia_04
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/Tavernes_01.png" alt="02">
+      <div class="carousel-caption">
+        Tavernes_01
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/Tavernes_02.png" alt="02">
+      <div class="carousel-caption">
+        Tavernes_02
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/Tavernes_03.png" alt="02">
+      <div class="carousel-caption">
+        Tavernes_03
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/CityEngine_01.png" alt="02">
+      <div class="carousel-caption">
+        CityEngine_01
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/CityEngine_02.png" alt="02">
+      <div class="carousel-caption">
+        CityEngine_02
+      </div>
+    </div>
+    <div class="item">
+      <img class="center-block" src="resources/CityEngine_03.png" alt="02">
+      <div class="carousel-caption">
+        CityEngine_03
+      </div>
+    </div>
+  </div>
 
-  <!--<div>
-  <h2 id="FormacionAcademica">Formación Académica</h2>
-  <div class="icon-space">
-  <span class="icon-subsection">&#xe914;</span>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#micarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="right carousel-control" href="#micarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+</div>
+<br>
+<!--<div>
+<a class="anchor" id="Experiencia"></a>
+<h2 id="Experiencia">Experiencia profesional</h2>
+<div class="icon-space">
+<span class="icon-subsection">&#xe903;</span>
 </div>
 </div>-->
 
-<h2 id="FormacionAcademica">Formación académica<span class="icon">&#xe914;</span>
+<a class="anchor" id="Experiencia"></a>
+<h2>Experiencia profesional<span class= "icon">&#xe903;</span>
+  <a class="goup-link" href="#">
+    <span class="dropup">
+      <span class="caret"></span>
+    </span>
+  </a>
+</h2>
+
+<br>
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">2013 - Actualidad</td>
+    <td class="col-md-9 info">Asesor Senior de Internet y Social Media para España</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9">Lionbridge Technologies, Inc. <a target="_blank" href="http://www.lionbridge.com/es-es/">Más información</a></td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe915;</span></td>
+    <td class="col-md-9">Contribución a la mejora de la calidad de los resultados de uno de los más conocidos motores de búsqueda de Internet<br>
+      El puesto requiere:
+      <ul>
+        <li>Capacidad para trabajar y gestionar el tiempo de manera autónoma</li>
+        <li>Habilidades analíticas y gran atención al detalle</li>
+        <li>Flexibilidad para adaptarse a nuevos métodos de trabajo</li>
+        <li>Poseer una amplia cultura general y un gran interés por Internet</li>
+        <li>Trabajo realizado íntegramente en inglés</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table class="table table-hover table-condensed">
+  <tr>
+    <td class="col-md-3 text-center">Enero - Abril 2015</td>
+    <td class="col-md-9 info">Trabajos en Estudio de Arquitectura</td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
+    <td class="col-md-9">Díaz Romero Arquitectos S.L.P. <a target="_blank" href="http://diaz-romero.com/">Más información</a></td>
+  </tr>
+  <tr>
+    <td class="col-md-3 text-center"><span class="icon-blue">&#xe915;</span></td>
+    <td class="col-md-9">
+      <ul>
+        <li>Diseño y delineado de proyectos de arquitectura</li>
+        <li>Cálculo y delineado de estructuras de hormigón armado</li>
+        <li>Cálculo y delineado de instalaciones de fontanería, saneamiento, electricidad y climatización</li>
+        <li>Redacción de memorias CTE, Pliegos de Condiciones, y Estudios de Seguridad y Salud</li>
+        <li>Mediciones, presupuestos, certificaciones de proyectos</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<!--<div>
+<a class="anchor" id="FormacionAcademica"></a>
+<h2 id="FormacionAcademica">Formación Académica</h2>
+<div class="icon-space">
+<span class="icon-subsection">&#xe914;</span>
+</div>
+</div>-->
+
+<a class="anchor" id="FormacionAcademica"></a>
+<h2>Formación académica<span class="icon">&#xe914;</span>
   <a class="goup-link" href="#Experiencia">
     <span class="dropup">
       <span class="caret"></span>
@@ -136,22 +356,24 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9"><a href="http://etsamadrid.aq.upm.es/">Escuela Técnica Superior de Arquitectura de Madrid</a> (ETSAM) de la Universidad Politécnica de Madrid (UPM)</td>
+    <td class="col-md-9"><a target="_blank" href="http://etsamadrid.aq.upm.es/">Escuela Técnica Superior de Arquitectura de Madrid</a> (ETSAM) de la Universidad Politécnica de Madrid (UPM)</td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe915;</span></td>
-    <td class="col-md-9">PFC realizado bajo la tutela de <a href="https://es.wikipedia.org/wiki/Luis_Moreno_Mansilla">Luis Moreno García-Mansilla</a>, Catedrático de Proyectos de la ETSAM y Premio Mies van der Rohe de la Unión Europea</td>
+    <td class="col-md-9">PFC realizado bajo la tutela de <a target="_blank" href="https://es.wikipedia.org/wiki/Luis_Moreno_Mansilla">Luis Moreno García-Mansilla</a>, Catedrático de Proyectos de la ETSAM y Premio Mies van der Rohe de la Unión Europea</td>
   </tr>
 </table>
 
 <!--<div>
+<a class="anchor" id="FormacionComplementaria"></a>
 <h2 id="FormacionComplementaria">Formación complementaria</h2>
 <div class="icon-space">
 <span class="icon-subsection">&#xe91a;</span>
 </div>
 </div>-->
 
-<h2 id="FormacionComplementaria">Formación complementaria<span class="icon">&#xe91a;</span>
+<a class="anchor" id="FormacionComplementaria"></a>
+<h2 >Formación complementaria<span class="icon">&#xe91a;</span>
   <a class="goup-link" href="#FormacionAcademica">
     <span class="dropup">
       <span class="caret"></span>
@@ -167,7 +389,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9">Esri España. <a href="http://mastergis.esri.es/">Más información</a></td>
+    <td class="col-md-9">Esri España. <a target="_blank" href="http://mastergis.esri.es/">Más información</a></td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90e;</span></td>
@@ -181,7 +403,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9">Centro de Formación Permanente de la Universidad Politécnica de Valencia. <a href="http://www.cursosigupv.com/">Más información</a></td>
+    <td class="col-md-9">Centro de Formación Permanente de la Universidad Politécnica de Valencia. <a target="_blank" href="http://www.cursosigupv.com/">Más información</a></td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90e;</span></td>
@@ -195,7 +417,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9"><a href="http://www.coacm.org/">Colegio Oficial de Arquitectos de Castilla-La Mancha</a></td>
+    <td class="col-md-9"><a target="_blank" href="http://www.coacm.org/">Colegio Oficial de Arquitectos de Castilla-La Mancha</a></td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
@@ -209,7 +431,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9">Almería. <a href="http://www.uapfe.com/jornadas/">Más información</a></td>
+    <td class="col-md-9">Almería. <a target="_blank" href="http://www.uapfe.com/jornadas/">Más información</a></td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
@@ -223,7 +445,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9"><a href="http://www.coacm.org/">Colegio Oficial de Arquitectos de Castilla-La Mancha</a></td>
+    <td class="col-md-9"><a target="_blank" href="http://www.coacm.org/">Colegio Oficial de Arquitectos de Castilla-La Mancha</a></td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
@@ -237,7 +459,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9"><a href="http://www.efinnova.com/">Efinnova Consultoría y Formación</a></td>
+    <td class="col-md-9"><a target="_blank" href="http://www.efinnova.com/">Efinnova Consultoría y Formación</a></td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
@@ -251,7 +473,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9">Instituto de Formación Continua del Colegio Oficial de Arquitectos de Madrid. <a href="http://www.coam.org/es/formacion">Más información</a></td>
+    <td class="col-md-9">Instituto de Formación Continua del Colegio Oficial de Arquitectos de Madrid. <a target="_blank" href="http://www.coam.org/es/formacion">Más información</a></td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
@@ -265,7 +487,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9">Instituto de Formación Continua del Colegio Oficial de Arquitectos de Madrid. <a href="http://www.coam.org/es/formacion">Más información</a></td>
+    <td class="col-md-9">Instituto de Formación Continua del Colegio Oficial de Arquitectos de Madrid. <a target="_blank" href="http://www.coam.org/es/formacion">Más información</a></td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
@@ -279,7 +501,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9"><a href="https://www.mantia.es/">Mantia Formación y Empleo</a></td>
+    <td class="col-md-9"><a target="_blank" href="https://www.mantia.es/">Mantia Formación y Empleo</a></td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
@@ -293,7 +515,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9"><a href="http://alumnia.aq.upm.es/">ALUMNIA</a> - Asociación de Antiguos Alumnos de la ETSAM</td>
+    <td class="col-md-9"><a target="_blank" href="http://alumnia.aq.upm.es/">ALUMNIA</a> - Asociación de Antiguos Alumnos de la ETSAM</td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
@@ -307,7 +529,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9">Instituto de Formación Continua del Colegio Oficial de Arquitectos de Madrid. <a href="http://www.coam.org/es/formacion">Más información</a></td>
+    <td class="col-md-9">Instituto de Formación Continua del Colegio Oficial de Arquitectos de Madrid. <a target="_blank" href="http://www.coam.org/es/formacion">Más información</a></td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
@@ -321,7 +543,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9">Instituto de Formación Continua del Colegio Oficial de Arquitectos de Madrid. <a href="http://www.coam.org/es/formacion">Más información</a></td>
+    <td class="col-md-9">Instituto de Formación Continua del Colegio Oficial de Arquitectos de Madrid. <a target="_blank" href="http://www.coam.org/es/formacion">Más información</a></td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
@@ -335,7 +557,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9">Cátedra Universidad - Empresa de Valoraciones Inmobiliarias de la ETSAM. <a href="http://etsamadrid.aq.upm.es/dcta/investigacion/catedras%20universidad%20empresa/valoraciones">Más información</a></td>
+    <td class="col-md-9">Cátedra Universidad - Empresa de Valoraciones Inmobiliarias de la ETSAM. <a target="_blank" href="http://etsamadrid.aq.upm.es/dcta/investigacion/catedras%20universidad%20empresa/valoraciones">Más información</a></td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
@@ -349,7 +571,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-10"><a href="https://www.inarqe.es/">inARQe</a> - Instituto de Innovación en Arquitectura Eficiente en el Colegio Oficial de Aparejadores, Arquitectos Técnicos e Ingenieros de la Edificación de Albacete</td>
+    <td class="col-md-10"><a target="_blank" href="https://www.inarqe.es/">inARQe</a> - Instituto de Innovación en Arquitectura Eficiente en el Colegio Oficial de Aparejadores, Arquitectos Técnicos e Ingenieros de la Edificación de Albacete</td>
   </tr>
   <tr>
     <td class="col-md-2 text-center"><span class="icon-blue">&#xe90c;</span></td>
@@ -363,7 +585,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9"><a href="http://www.structuralia.com/es/">Structuralia</a></td>
+    <td class="col-md-9"><a target="_blank" href="http://www.structuralia.com/es/">Structuralia</a></td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
@@ -377,7 +599,7 @@
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe91b;</span></td>
-    <td class="col-md-9"><a href="http://www.structuralia.com/es/">Structuralia</a></td>
+    <td class="col-md-9"><a target="_blank" href="http://www.structuralia.com/es/">Structuralia</a></td>
   </tr>
   <tr>
     <td class="col-md-3 text-center"><span class="icon-blue">&#xe90c;</span></td>
@@ -386,13 +608,15 @@
 </table>
 
 <!--<div>
+<a class="anchor" id="Habilidades"></a>
 <h2 id="Habilidades">Habilidades y conocimientos</h2>
 <div class="icon-space">
 <span class="icon-subsection">&#xe90d;</span>
 </div>
 </div>-->
 
-<h2 id="Habilidades">Habilidades y conocimientos<span class="icon">&#xe90d;</span>
+<a class="anchor" id="Habilidades"></a>
+<h2>Habilidades y conocimientos<span class="icon">&#xe90d;</span>
   <a class="goup-link" href="#FormacionComplementaria">
     <span class="dropup">
       <span class="caret"></span>
@@ -458,6 +682,11 @@
         <span class="text-progress-bar">gvSIG</span>
       </div>
     </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
+        <span class="text-progress-bar">CityEngine</span>
+      </div>
+    </div>
   </div>
 
   <div class="col-md-3">
@@ -515,13 +744,15 @@
 </div>
 
 <!--<div>
+<a class="anchor" id="Otros"></a>
 <h2 id="Otros">Otros datos de interés</h2>
 <div class="icon-space">
 <span class="icon-subsection">&#xe904;</span>
 </div>
 </div>-->
 
-<h2 id="Otros">Otros datos de interés<span class="icon">&#xe904;</span>
+<a class="anchor" id="Otros"></a>
+<h2>Otros datos de interés<span class="icon">&#xe904;</span>
   <a class="goup-link" href="#Habilidades">
     <span class="dropup">
       <span class="caret"></span>
@@ -545,7 +776,7 @@
 
   <div class="col-md-3">
     <span class="icon-blue-left">&#xe92c;</span><strong> Afiliaciones profesionales</strong><br>
-    <a href="http://www.coacm.org">Colegio Oficial de Arquitectos de Castilla-La Mancha</a> (COACM)
+    <a target="_blank" href="http://www.coacm.org">Colegio Oficial de Arquitectos de Castilla-La Mancha</a> (COACM)
   </div>
   <div class="col-md-3">
     <span class="icon-blue-left">&#xe917;</span><strong> Idiomas</strong><br>
@@ -572,23 +803,43 @@
 </div>-->
 
 <h2 id="Contacto">Contacto
-  <a class="icon-link" href="https://es.linkedin.com/"><span class="icon">&#xe930;</span></a>
-  <a class="icon-link" href="https://es.pinterest.com/csanchezcastro/"><span class="icon">&#xe931;</span></a>
-  <a class="icon-link" href="https://twitter.com/csanchezcastro"><span class="icon">&#xe932;</span>
-  </a><a class="icon-link" href="mailto:arq.csanchezcastro@outlook.com"><span class="icon">&#xe91c;</span></a>
+  <a target="_blank" class="icon-link" href="https://es.linkedin.com/"><span class="icon">&#xe930;</span></a>
+  <a target="_blank" class="icon-link" href="https://es.pinterest.com/csanchezcastro/"><span class="icon">&#xe931;</span></a>
+  <a target="_blank" class="icon-link" href="https://twitter.com/csanchezcastro"><span class="icon">&#xe932;</span></a>
+  <a class="icon-link" href="mailto:arq.csanchezcastro@outlook.com"><span class="icon">&#xe91c;</span></a>
+  <a class="icon-link" data-toggle="modal" data-target="#myModal" href=""><span class="icon">&#xe938;</span></a>
   <a class="goup-link" href="#">
     <span class="dropup">
       <span class="caret"></span>
     </span>
   </a>
 </h2>
-
 <br>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Datos de contacto</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-4"><img id="QR" src="resources/QR.png" alt="Código QR con datos de contacto"></div>
+          <div class="col-md-8">Escanee el código QR con la cámara de su teléfono para obtener los datos de contacto en formato vCard. Puede utilizar una aplicación como Scanbot:</div>
+          <div class="text-center">
+            <a target="_blank" href="https://scanbot.io/en/index.html"><img class="appicon" src="resources/Scanbot.png" alt="Icono de Scanbot"></a>
+            <a target="_blank" href="https://itunes.apple.com/app/apple-store/id834854351"><img class="storeicon" src="https://d23q6jsy9lr4bo.cloudfront.net/assets/images/buttons/appstore.svg" alt="Scanbot en el App Store de Apple"></a>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=net.doo.snap"><img class="storeicon" src="https://d23q6jsy9lr4bo.cloudfront.net/assets/images/buttons/playstore.svg" alt="Scanbot en Google Play Store"></a>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
 </div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
