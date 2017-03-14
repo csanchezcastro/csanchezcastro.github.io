@@ -9,18 +9,6 @@
   font-style: normal;
 }
 
-.icon {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  float: right;
-  padding-right: 15px;
-}
-
 /*.icon-subsection {
   /* use !important to prevent issues with browser extensions that change fonts
   font-family: 'icomoon' !important;
@@ -35,26 +23,265 @@
   padding-right: 10px;
 }*/
 
-.icon-blue {
-  /* use !important to prevent issues with browser extensions that change fonts */
+.icon-qrcode:before {
   font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
+  content: "\e938";
+  float: right;
+  padding-right: 15px;
+}
+/*.icon-map:before {
+  font-family: 'icomoon' !important;
+  content: "\e933";
+}*/
+.icon-star:before {
+  font-family: 'icomoon' !important;
+  content: "\e934";
+  color: #0275d8;
+  padding-right: 3px;
+}
+/*.icon-add-user:before {
+  font-family: 'icomoon' !important;
+  content: "\e900";
+}
+.icon-address:before {
+  font-family: 'icomoon' !important;
+  content: "\e901";
+}*/
+.icon-aircraft:before {
+  font-family: 'icomoon' !important;
+  content: "\e902";
+  color: #0275d8;
+  padding-right: 3px;
+}
+.icon-area-graph:before {
+  font-family: 'icomoon' !important;
+  content: "\e903";
+  float: right;
+  padding-right: 15px;
+}
+.icon-attachment:before {
+  font-family: 'icomoon' !important;
+  content: "\e904";
+  float: right;
+  padding-right: 15px;
+}
+/*.icon-bar-graph:before {
+  font-family: 'icomoon' !important;
+  content: "\e905";
+}
+.icon-briefcase:before {
+  font-family: 'icomoon' !important;
+  content: "\e906";
+}
+.icon-brush:before {
+  font-family: 'icomoon' !important;
+  content: "\e907";
+}*/
+.icon-calculator:before {
+  font-family: 'icomoon' !important;
+  content: "\e908";
   float: right;
   color: #0275d8;
 }
-
-.icon-blue-left {
-  /* use !important to prevent issues with browser extensions that change fonts */
+/*.icon-camera:before {
   font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
+  content: "\e909";
+}
+.icon-chat:before {
+  font-family: 'icomoon' !important;
+  content: "\e90a";
+}
+.icon-circular-graph:before {
+  font-family: 'icomoon' !important;
+  content: "\e90b";
+}*/
+.icon-clock:before {
+  font-family: 'icomoon' !important;
+  content: "\e90c";
+  float: right;
+  color: #0275d8;
+}
+.icon-colours:before {
+  font-family: 'icomoon' !important;
+  content: "\e90d";
+  float: right;
+  padding-right: 15px;
+}
+.icon-cycle:before {
+  font-family: 'icomoon' !important;
+  content: "\e90e";
+  float: right;
+  color: #0275d8;
+}
+.icon-edit:before {
+  font-family: 'icomoon' !important;
+  content: "\e90f";
+  float: right;
+  color: #0275d8;
+}
+/*.icon-email:before {
+  font-family: 'icomoon' !important;
+  content: "\e910";
+}
+.icon-feather:before {
+  font-family: 'icomoon' !important;
+  content: "\e911";
+}
+.icon-gauge:before {
+  font-family: 'icomoon' !important;
+  content: "\e912";
+}*/
+.icon-globe:before {
+  font-family: 'icomoon' !important;
+  content: "\e913";
+  float: right;
+  color: #0275d8;
+}
+.icon-graduation-cap:before {
+  font-family: 'icomoon' !important;
+  content: "\e914";
+  float: right;
+  padding-right: 15px;
+}
+.icon-info-with-circle:before {
+  font-family: 'icomoon' !important;
+  content: "\e915";
+  float: right;
+  color: #0275d8;
+}
+/*.icon-info:before {
+  font-family: 'icomoon' !important;
+  content: "\e916";
+}*/
+.icon-language:before {
+  font-family: 'icomoon' !important;
+  content: "\e917";
   color: #0275d8;
   padding-right: 3px;
+}
+/*.icon-laptop:before {
+  font-family: 'icomoon' !important;
+  content: "\e918";
+}
+.icon-line-graph:before {
+  font-family: 'icomoon' !important;
+  content: "\e919";
+}*/
+.icon-list:before {
+  font-family: 'icomoon' !important;
+  content: "\e91a";
+  float: right;
+  padding-right: 15px;
+}
+.icon-location-pin:before {
+  font-family: 'icomoon' !important;
+  content: "\e91b";
+  float: right;
+  color: #0275d8;
+}
+.icon-mail:before {
+  font-family: 'icomoon' !important;
+  content: "\e91c";
+  float: right;
+  padding-right: 15px;
+}
+/*.icon-megaphone:before {
+  font-family: 'icomoon' !important;
+  content: "\e91d";
+}
+.icon-mobile:before {
+  font-family: 'icomoon' !important;
+  content: "\e91e";
+}
+.icon-mouse:before {
+  font-family: 'icomoon' !important;
+  content: "\e91f";
+}
+.icon-news:before {
+  font-family: 'icomoon' !important;
+  content: "\e920";
+}*/
+.icon-palette:before {
+  font-family: 'icomoon' !important;
+  content: "\e921";
+  float: right;
+  color: #0275d8;
+}
+/*.icon-pencil:before {
+  font-family: 'icomoon' !important;
+  content: "\e922";
+}
+.icon-pie-chart:before {
+  font-family: 'icomoon' !important;
+  content: "\e923";
+}
+.icon-pin:before {
+  font-family: 'icomoon' !important;
+  content: "\e924";
+}
+.icon-round-brush:before {
+  font-family: 'icomoon' !important;
+  content: "\e925";
+}
+.icon-suitcase:before {
+  font-family: 'icomoon' !important;
+  content: "\e926";
+}
+.icon-tablet:before {
+  font-family: 'icomoon' !important;
+  content: "\e927";
+}
+.icon-text-document:before {
+  font-family: 'icomoon' !important;
+  content: "\e928";
+}
+.icon-time-slot:before {
+  font-family: 'icomoon' !important;
+  content: "\e929";
+}
+.icon-tv:before {
+  font-family: 'icomoon' !important;
+  content: "\e92a";
+}
+.icon-user:before {
+  font-family: 'icomoon' !important;
+  content: "\e92b";
+}*/
+.icon-users:before {
+  font-family: 'icomoon' !important;
+  content: "\e92c";
+  color: #0275d8;
+  padding-right: 3px;
+}
+.icon-v-card:before {
+  font-family: 'icomoon' !important;
+  content: "\e92d";
+  color: #0275d8;
+  padding-right: 3px;
+}
+/*.icon-facebook:before {
+  font-family: 'icomoon' !important;
+  content: "\e92e";
+}
+.icon-google:before {
+  font-family: 'icomoon' !important;
+  content: "\e92f";
+}*/
+.icon-linkedin:before {
+  font-family: 'icomoon' !important;
+  content: "\e930";
+  float: right;
+  padding-right: 15px;
+}
+.icon-pinterest:before {
+  font-family: 'icomoon' !important;
+  content: "\e931";
+  float: right;
+  padding-right: 15px;
+}
+.icon-twitter:before {
+  font-family: 'icomoon' !important;
+  content: "\e932";
+  float: right;
+  padding-right: 15px;
 }
