@@ -15,7 +15,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
+
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/stylesheet.css">
   <link rel="stylesheet" href="icomoon/icomoon.css">
@@ -112,7 +112,7 @@ Menu <span class="caret"></span>
           <img id="fotojumbo" src="resources/foto.png" alt="Foto de Carlos Sánchez-Castro Coy">
         </div>
         <div class="col-md-10">
-          <h1>Carlos Sánchez-Castro Coy</h1>
+          <h1 id="minombre">Carlos Sánchez-Castro Coy</h1>
           <p>Arquitecto. Analista y desarrollador GIS (en formación)</p>
         </div>
       </div>
@@ -120,7 +120,7 @@ Menu <span class="caret"></span>
   </div>
 </div>
 
-<div id="mycarousel" class="carousel slide" data-ride="carousel">
+<div id="mycarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
@@ -227,7 +227,7 @@ Menu <span class="caret"></span>
       </div>
     </div>
     <div class="item">
-      <img class="center-block" src="resources/Cityengine_02.png" alt="Creación de reglas CGA de CityEngine">
+      <img class="center-block" src="resources/CityEngine_02.png" alt="Creación de reglas CGA de CityEngine">
       <div class="carousel-caption">
         Creación de reglas CGA de CityEngine
       </div>
@@ -786,6 +786,7 @@ Menu <span class="caret"></span>
   <a target="_blank" class="icon-link" href="https://es.pinterest.com/csanchezcastro/"><span class="icon-pinterest"></span></a>
   <a target="_blank" class="icon-link" href="https://twitter.com/csanchezcastro"><span class="icon-twitter"></span></a>
   <a class="icon-link" href="mailto:arq.csanchezcastro@outlook.com"><span class="icon-mail"></span></a>
+
   <a class="icon-link" data-toggle="modal" data-target="#myModal" href=""><span class="icon-qrcode"></span></a>
   <a class="goup-link" href="#">
     <span class="dropup">
@@ -819,24 +820,25 @@ Menu <span class="caret"></span>
     </div>
   </div>
 </div>
-
-<div class="row">
-  <div class="col-md-4 col-md-offset-4 text-center">
-    <p>
-      <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px;align:middle;"
-        src="http://jigsaw.w3.org/css-validator/images/vcss"
-        alt="¡CSS Válido!" />
-      </a>
-      <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px;align:middle;"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="¡CSS Válido!" />
-      </a>
-    </p>
-
+<footer>
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4 text-center">
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px;align:middle;"
+          src="http://jigsaw.w3.org/css-validator/images/vcss"
+          alt="¡CSS Válido!" />
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px;align:middle;"
+          src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+          alt="¡CSS Válido!" />
+        </a>
+      </p>
+      <p id="copyright"></p>
+    </div>
   </div>
-</div>
-
+</footer>
+<script src="js/main.js"></script>
 </body>
 </html>
