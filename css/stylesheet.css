@@ -104,6 +104,11 @@ border: 1px solid #0275d8;
 	box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.6);
 }
 
+.btn.btn-info {
+	background-color: #0275d8;
+	margin-top: 43.2px;
+}
+
 .container .jumbotron, .container-fluid .jumbotron {
     padding: 20px 20px 20px 20px;
 		border-radius: 4px;
