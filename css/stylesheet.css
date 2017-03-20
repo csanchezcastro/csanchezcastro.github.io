@@ -189,6 +189,10 @@ border: 1px solid #0275d8;
 	width: 150px;
 }
 
+#miniaturasCV {
+	width: 180px;
+}
+
 .storeicon {
 	width: 100px;
 	margin-left: 5px;

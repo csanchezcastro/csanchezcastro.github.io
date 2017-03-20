@@ -16,7 +16,7 @@ var p = document.getElementById('copyright');
 	p.innerHTML = "&copy; 2017 Carlos Sánchez-Castro Coy";
 	p.style = 'color: #0275d8';
   console.log('p = ', p.getAttribute('style'), p.innerHTML);
-
+	console.log('!Hola, Raúl!, !Hola, mundo!');
 
 /*var shiftWindow = function() { scrollBy(0, -70); };
 if (location.hash) shiftWindow();

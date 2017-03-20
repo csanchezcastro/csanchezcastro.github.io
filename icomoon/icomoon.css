@@ -38,6 +38,19 @@
   padding-right: 10px;
 }*/
 
+.icon-documents:before {
+  font-family: 'icomoon' !important;
+  content: "\e939";
+  float: right;
+  padding-right: 15px;
+}
+
+#icon-documents-modal:before {
+  font-family: 'icomoon' !important;
+  content: "\e939";
+  padding-left: 10px;
+}
+
 .icon-images:before {
   content: "\e936";
   padding-left: 10px;
