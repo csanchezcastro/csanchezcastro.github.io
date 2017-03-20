@@ -309,6 +309,16 @@ a {
 	background-color: inherit;
 }
 
+.barlink {
+	color: #fff;
+	background-color: inherit;
+}
+
+.barlink:visited {
+	color: #fff;
+	background-color: inherit;
+}
+
 .dropup {
 	float: right;
 	padding-right: 15px;
